@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<!-- User Entries -->
+	<category label="1000">
+        <setting id="sep1" label="1000" type="lsep"/>
+        <setting label="101" type="text" id="settings_username" default=""/>
+        <setting label="102" type="text" id="settings_password" default="" option="hidden" enable="!eq(-1,)"/>
+    </category>
+	<category label="2000">
+        <setting id="sep2" label="2000" type="lsep"/>
+        <setting label="401" type="bool" id="settings_notification" default="true"/>
+        <setting label="402" type="bool" id="settings_debug" default="false"/>
+    </category>
+</settings>
