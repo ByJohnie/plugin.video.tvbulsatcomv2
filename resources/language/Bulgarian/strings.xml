@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    
+    <!-- login -->
+    <string id="1000">Данни за вход</string>
+    <string id="101">Потребителско име</string>
+    <string id="102">Парола</string>
+    <string id="2000">Други настройки</string>
+    <string id="401">Първи старт</string>
+    <string id="402">Дебъг</string>
+    
+</strings>
