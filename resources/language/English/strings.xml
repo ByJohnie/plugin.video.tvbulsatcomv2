@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    
+    <!-- login -->
+    <string id="1000">Login Details</string>
+    <string id="101">Username</string>
+    <string id="102">Password</string>
+    <string id="2000">Other Settings</string>
+    <string id="401">FirstRun</string>
+    <string id="402">Debug</string>
+    
+</strings>
