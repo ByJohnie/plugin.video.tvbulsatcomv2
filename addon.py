@@ -37,7 +37,6 @@ if not username or not password or not __settings__:
 #Инициализация
 
 url = ('https://' + app + '/auth')
-print url
 req = urllib2.Request(url)
 req.add_header('Host', app)
 req.add_header('Connection', 'keep-alive')
@@ -73,6 +72,7 @@ opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 f = opener.open(req)
 jsonrsp = json.loads(f.read())
 logged=jsonrsp['Logged']
+print logged
 #Меню с директории в приставката
 def CATEGORIES():
         #Категории
