@@ -77,13 +77,12 @@ logged=jsonrsp['Logged']
 def CATEGORIES():
         #Категории
         if logged=='true':
-            try:
                 addDir('ТЕЛЕВИЗИЯ','https://'+app+'/tv/','',4,md+'DefaultFolder.png')
                 addDir('Радио','https://'+app+'/tv/','',5,md+'DefaultFolder.png')
                 addDir('Видеотека','https://'+app+videoteka,'',1,md+'DefaultFolder.png')
                 addDir('Генерирай плейлиста','https://'+app+'/tv/','',7,md+'DefaultFolder.png')
-            except:
-                xbmcgui.Dialog().ok('Най вероятно грешка 199','Достигнали сте максималният брой според абонаментният ви план')
+        if logged=='false':
+                xbmcgui.Dialog().ok('Грешка 199','Внимание! Приложението може да се използва спрямо активните Ви абонаменти. Вече използвате приложението с максимално допустимите устройства. Телефон 0700 319 19')
 
 def VIDEOTEK(url):
         #Жанрове
