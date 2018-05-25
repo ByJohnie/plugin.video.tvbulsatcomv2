@@ -10,5 +10,6 @@
         <setting id="sep2" label="2000" type="lsep"/>
         <setting label="401" type="bool" id="settings_notification" default="true"/>
         <setting label="402" type="bool" id="settings_debug" default="false"/>
+        <setting label="403" type="bool" id="ext_epg" default="false"/>
     </category>
 </settings>
